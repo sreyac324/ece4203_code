@@ -1,0 +1,19 @@
+{
+    "name": "Cal Poly ECE4203 2026",
+    "image": "dvanblerkom/ece4203:2026",
+    "hostRequirements": {
+        "cpus": 4,
+        "memory": "8gb",
+        "storage": "32gb"
+    },
+    "remoteUser": "user",
+    "postCreateCommand": "echo 'Welcome to Cal Poly ECE4203 2026'",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "mshr-h.veriloghdl",
+                "leafvmaple.verilog-formatter"
+            ]
+        }
+    }
+}
